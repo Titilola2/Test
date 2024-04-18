@@ -1,4 +1,6 @@
 import React from 'react';
+import menu from '../assets/menu.svg';
+import group from '../assets/Group.svg';
 
 const Header = () => {
   return (
@@ -32,7 +34,8 @@ const Header = () => {
 
  <div className="Frame8 lg:px-16 px-2 justify-between items-center inline-flex w-full py-2">
    <div className="Frame13 flex flex-col justify-center items-center inline-flex">
-     <div className="Group  relative">image
+     <div className="Group  relative"> 
+     <img className="  " src={group} />
      </div>
     <div className="DoobCommunity text-center text-lime-950 text-sm font-black font-['Playfair Display']">DOOB COMMUNITY</div>
   </div>
@@ -54,7 +57,8 @@ const Header = () => {
       </div>
     </div>
   </div>
-  <div className="Group  relative md:hidden">image
+  <div className="Group  relative md:hidden">
+  <img className="  " src={menu} />
      </div>
 
 </div>
