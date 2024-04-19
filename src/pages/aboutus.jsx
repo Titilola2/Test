@@ -21,10 +21,10 @@ const AboutUs = () => {
 <div className="body flex flex-col justify-center items-center">
   <div className="abuout-us-header flex flex-col w-screen">
   <div className="md:ml-12 ml-2">
-            <div className="heading w-4/5  xl:text-7xl lg:text-5xl  md:text-4xl text-base font-semibold font-['Inter']">
+            <div className="heading w-4/5   lg:text-5xl  md:text-4xl text-base font-semibold font-['Inter']">
                DOOB Community: Empowering Change Through Unity, Compassion, and Collective Commitment
              </div>
-            <div className=" w-3/5 my-4 xl:text-4xl lg:3xl md:text-2xl text-[8px] font-normal ">
+            <div className=" w-3/5 my-4  lg:3xl md:text-2xl text-[8px] font-normal ">
              At DOOB Community, we merge compassion with innovation to forge a supportive community where everyone belongs. Join us in our story of passion and commitment, where connection is paramount
             </div>
            <div className="justify-start items-start md:gap-7 gap-2 inline-flex ">

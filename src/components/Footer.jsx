@@ -18,7 +18,7 @@ const Footer = () => {
       <div className="Rectangle14   " />
       <img className="ImagePlaceholder md:w-3/4   " src={foot}  alt="footer"/>
     </div>
-  <div className="YourCertified w-1/2 -right-4 md:rigth-0 flex-glow md:top-0 -top-4 md:my-20 my-12 absolute text-white lg:text-5xl  xl:tex-6xl md:text-3xl sm:text-sm font-bold font-['BoldInter'] uppercase tracking-widest">Your Certified Quality Service Providers</div>
+  <div className="YourCertified w-1/2 -right-4 md:rigth-0 flex-glow md:top-0 -top-4 md:my-20 my-12  absolute text-white lg:text-5xl  xl:tex-6xl md:text-3xl sm:text-sm font-bold font-['BoldInter'] uppercase tracking-widest">Your Certified Quality Service Providers</div>
 </div>
 
 

@@ -36,7 +36,7 @@ const Header = () => {
    <div className="Frame13 flex flex-col justify-center items-center inline-flex">
      <div className="Group  relative"> 
     <a href="/">
-     <img  className="md:w-20 w-8  " src={group} />
+     <img  className="md:w-16 w-8  " src={group} />
      </a>
 
      </div>
