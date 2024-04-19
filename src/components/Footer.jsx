@@ -14,11 +14,11 @@ const Footer = () => {
      <img className="ImagePlaceholder w-full ml-4 " src={footer}  alt="footer"/>
      </div>
    
-     <div className="w-2/5  md:ml-30 md:left-40 ml-20 mt-12 -md:top-48 -top-4 -left-2 relative">
+     <div className="w-2/5  md:ml-30 md:left-20 lg-left-40 ml-20 mt-12 -md:top-48 -top-4 -left-2 relative">
       <div className="Rectangle14   " />
       <img className="ImagePlaceholder md:w-3/4   " src={foot}  alt="footer"/>
     </div>
-  <div className="YourCertified w-1/2 -right-4 md:rigth-0 flex-glow md:top-0 -top-4 md:my-20 my-12 absolute text-white lg:text-6xl md:text-3xl sm:text-sm font-bold font-['BoldInter'] uppercase tracking-widest">Your Certified Quality Service Providers</div>
+  <div className="YourCertified w-1/2 -right-4 md:rigth-0 flex-glow md:top-0 -top-4 md:my-20 my-12 absolute text-white lg:text-5xl  xl:tex-6xl md:text-3xl sm:text-sm font-bold font-['BoldInter'] uppercase tracking-widest">Your Certified Quality Service Providers</div>
 </div>
 
 
@@ -56,7 +56,7 @@ const Footer = () => {
     </div>
  </div>
  <div className="h-1/4   md:py-8 ">
- <div className="DoobCommunity   text-center  text-lime-950 md:text-lg flex-glow text:xs font-normal font-['Inter'] ">DOOB Community is committed to nondiscriminatory practices in all aspects of its services and programs. This commitment aligns with regulations from acts such as the 1964 Civil Rights Act, the Rehabilitation Act of 1973, the Age Discrimination Act of 1975, and the Hill Burton Act. We ensure equal opportunities in employment, admissions, service provisions, accommodations, and program participation, rejecting discrimination based on factors like race, color, national origin, age, and disability.</div>
+ <div className="DoobCommunity   text-center  text-lime-950 md:text-lg flex-glow text-[8px] font-normal font-['Inter'] ">DOOB Community is committed to nondiscriminatory practices in all aspects of its services and programs. This commitment aligns with regulations from acts such as the 1964 Civil Rights Act, the Rehabilitation Act of 1973, the Age Discrimination Act of 1975, and the Hill Burton Act. We ensure equal opportunities in employment, admissions, service provisions, accommodations, and program participation, rejecting discrimination based on factors like race, color, national origin, age, and disability.</div>
 </div>
 
 

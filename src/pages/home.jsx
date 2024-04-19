@@ -51,12 +51,12 @@ const Home = () => {
           <div className="self-stretch text-stone-800 text-3xl font-semibold font-['Inter']">Empowering Connections for Every Ability</div>
            <div className="self-stretch text-stone-800 mb-8 text-base font-normal font-['Inter']">empowers adults with intellectual and developmental disabilities, fostering independence and enhancing quality of life through comprehensive support services.<br/>they don't have disability but an ability</div>
          </div>
-         <div className="justify-start items-start gap-7 inline-flex   ">
-             <div className="w-32 p-2 bg-lime-950 rounded-lg justify-center items-center gap-2 flex">
-               <div className="text-center text-white text-xl font-semibold font-['Inter']">Contact Us</div>
+         <div className="justify-start items-start gap-4 inline-flex   ">
+             <div className="w-28 p-2 bg-lime-950 rounded-lg justify-center items-center gap-2 flex">
+               <div className="text-center text-white text-base font-semibold font-['Inter']">Contact Us</div>
              </div>
-            <div className="w-32 p-2 rounded-lg border border-lime-950 justify-center items-center gap-2 flex">
-              <div className="w-28 text-center text-stone-600 text-xl font-semibold font-['Inter']">Enroll</div>
+            <div className="w-28 p-2 rounded-lg border border-lime-950 justify-center items-center gap-2 flex">
+              <div className="w-28 text-center text-stone-600 text-base font-semibold font-['Inter']">Enroll</div>
             </div>
           </div>
         </div>
@@ -80,48 +80,48 @@ const Home = () => {
   </div>
 
 {/* medium and large screen*/}
- <div className="mission-body flex-row   flex  w-full ">
+ <div className="mission-body flex-row   flex  w-full md:gap-0 gap-2 ">
 
-   <div className="w-1/2 md:h-4/5 ">
+   <div className="w-1/2 md:h-4/5 md:mt-2 mt-4 ">
       <div className="mission-imag   ">
         <div className=" container flex-col ">
-         <img className="w-4/5 h-1/3 ml-24  " src={one} />
-         <img className="w-4/5 h-1/3 md:-mt-48" src={two} />
-         <img className="w-4/5 h-1/3 ml-24 md:-mt-48 " src={three} />
+         <img className="md:w-4/5 w-4/5   h-1/3 md:ml-24 ml-10  " src={one} />
+         <img className="md:w-4/5 w-4/5  h-1/3 xl:-mt-48 lg:-mt-12 md:-mt-6 -mt-2" src={two} />
+         <img className="md:w-4/5 w-4/5  h-1/3 md:ml-24 xl:-mt-48  lg:-mt-12 md:-mt-6 ml-10 -mt-2 " src={three} />
         </div>
      </div>
     </div>
 
-   <div className="mission-words flex-col md:w-1/2  w-2/3">
+   <div className="mission-words flex-col w-1/2  ">
    <div className="w-full flex-row  md:h-1/4 h-34 bg-lime-950 rounded-md justify-start items-center gap-3 inline-flex">
-    <img className="md:w-1/3 w-1/4 h-full " src={four} />
+    <img className="w-1/3 h-full " src={four} />
     <div className="flex-col justify-start items-center gap-2 inline-flex">
-      <div className="text-white md:text-6xl  text-sm md:h-1/4 h-2 md:font-semibold font-thin font-['Inter']">Explore our Services</div>
-      <div className=" text-center text-stone-50 md:text-xl  text-xs md:h-2/4 h-24 md:font-normal font-hairline font-hairline font-['Inter']">Embark on a journey of discovery with "Explore Our Services," where tailored programs and comprehensive support await, empowering individuals to thrive and achieve their unique goals.</div>
+      <div className="text-white md:text-xl lg:text-5xl lg:text-6xl text-[12px] h-1/4  md:font-semibold font-thin font-['Inter']">Explore our Services</div>
+      <div className=" text-center text-stone-50 md:text-xs lg:text-xl  text-[7px] md:font-normal font-hairline font-hairline font-['Inter']">Embark on a journey of discovery with "Explore Our Services," where tailored programs and comprehensive support await, empowering individuals to thrive and achieve their unique goals.</div>
     </div>
     </div>
 
     <div className="w-full flex-row md:pr-2.5 md:h-1/4 h-34 my-1 bg-lime-950 rounded-md justify-start items-center gap-3 inline-flex">
-    <img className="md:w-1/3 w-1/4 h-full " src={five} />
+    <img className="w-1/3 h-full " src={five} />
     <div className="flex-col justify-start items-center gap-2 inline-flex">
-      <div className="text-white md:text-6xl  text-sm md:h-1/4 h-2 md:font-semibold font-thin  font-['Inter']">Join Our Team</div>
-      <div className=" text-center text-stone-50 md:text-xl text-xs md:h-2/4 h-24 md:font-normal font-hairline font-['Inter']">Become a valued member of our team! Explore exciting opportunities and contribute your skills to a dynamic and supportive work environment. Join us in making a positive impact and shaping a brighter future together.</div>
+      <div className="text-white md:text-xl lg:text-5xl  text-[12px] md:h-1/4 h-2 md:font-semibold font-thin  font-['Inter']">Join Our Team</div>
+      <div className=" text-center text-stone-50 md:text-xs lg:text-xl text-[7px] md:font-normal font-hairline font-['Inter']">Become a valued member of our team! Explore exciting opportunities and contribute your skills to a dynamic and supportive work environment. Join us in making a positive impact and shaping a brighter future together.</div>
     </div>
     </div>
    
     <div className="w-full flex-row  pr-2.5 md:h-1/4 h-34  bg-lime-950 rounded-md justify-start items-center gap-3 inline-flex">
-    <img className="md:w-1/3 w-1/4 h-full " src={six} />
+    <img className="w-1/3 h-full " src={six} />
     <div className="flex-col justify-start items-center gap-2 inline-flex">
-      <div className="text-white md:text-6xl  text-sm md:h-1/4 h-2  md:font-semibold font-thin  font-['Inter']">Support Our Mission</div>
-      <div className=" text-center text-stone-50 md:text-xl text-xs md:h-2/4 h-24 md:font-normal font-hairline font-['Inter']">Join our mission to empower lives through support. Your contribution fosters independence and enhances quality of life for individuals facing disabilities. Together, let's make a positive impact.</div>
+      <div className="text-white md:text-xl lg:text-5xl  text-[12px] md:h-1/4 h-2  md:font-semibold font-thin  font-['Inter']">Support Our Mission</div>
+      <div className=" text-center text-stone-50 md:text-xs lg:text-xl text-[7px] md:font-normal font-hairline font-['Inter']">Join our mission to empower lives through support. Your contribution fosters independence and enhances quality of life for individuals facing disabilities. Together, let's make a positive impact.</div>
     </div>
     </div>
 
     <div className="w-full flex-row  pr-2.5 md:h-1/4 h-34  mt-1 bg-lime-950 rounded-md justify-start items-center gap-3 inline-flex">
-    <img className="md:w-1/3 w-1/4 h-full " src={seven} />
+    <img className="w-1/3 h-full " src={seven} />
     <div className="flex-col justify-start items-center gap-2 inline-flex">
-      <div className=" text-white md:text-6xl  text-sm md:h-1/4 h-2 md:font-semibold font-thin   font-['Inter']">Follow Our Events</div>
-      <div className=" text-center text-white md:text-xl text-xs md:h-2/4 h-24 md:font-normal font-hairline font-['Inter']">Stay connected and follow our events for exciting updates, impactful initiatives, and opportunities to engage with our community. Don't miss out on the latest happenings – be a part of our journey</div>
+      <div className=" text-white md:text-xl lg:text-5xl  text-[12px] md:h-1/4 h-2 md:font-semibold font-thin   font-['Inter']">Follow Our Events</div>
+      <div className=" text-center text-white md:text-xs lg:text-xl text-[7px] md:font-normal font-hairline font-['Inter']">Stay connected and follow our events for exciting updates, impactful initiatives, and opportunities to engage with our community. Don't miss out on the latest happenings – be a part of our journey</div>
     </div>
  </div>
 
@@ -147,7 +147,7 @@ const Home = () => {
 {/*what we do*/}
     {/*Large screen*/}
   <div className="what-we-do  items-center flex flex-col mt-4 hidden md:flex">
-    <div className="heading w-3/5  py-8">
+    <div className="heading w-3/5  py-8 md:my-8">
       <div className="md:text-4xl  font-black justify-center items-center text-center justify-center font-['Inter']">
             What We Do
       </div>
@@ -158,7 +158,7 @@ const Home = () => {
     <div className="Body flex flex-row w-4/5">
       <div className="left w-1/3 flex-col">
        <div className="left-top flex flex-col">
-        <div className="one items-center">
+        <div className="one md:mb-8 items-center">
           <div className="rectangle" >
           <img className="w-1/5 ml-28  justify-center py-4 " src={check} />
             </div>
@@ -186,10 +186,10 @@ const Home = () => {
       <img className="w-full px-8 " src={whatwedo} />
       </div>
       <div className="right w-1/3">
-      <div className="left-top flex flex-col">
-        <div className="one">
+      <div className="left-top flex flex-col ">
+        <div className="one md:mb-8">
           <div className="rectangle" >
-            <img className="w-1/5 ml-28 justify-center py-4 " src={check} />
+            <img className="w-1/5 ml-28  justify-center py-4 " src={check} />
             </div>
            <div className="font-semibold text-3xl">
               Residential Services
