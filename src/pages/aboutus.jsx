@@ -28,7 +28,7 @@ const AboutUs = () => {
              At DOOB Community, we merge compassion with innovation to forge a supportive community where everyone belongs. Join us in our story of passion and commitment, where connection is paramount
             </div>
            <div className="justify-start items-start md:gap-7 gap-2 inline-flex ">
-              <div className="md:w-36 w-12 md:p-3  p-2 bg-lime-950 md:rounded-lg rounded-[6px] justify-center items-center md:gap-2 gap-1 flex">
+              <div className="md:w-36 w-12 md:p-3  p-2 bg-lime-900 md:rounded-lg rounded-[6px] justify-center items-center md:gap-2 gap-1 flex">
                    <div className="text-center text-white md:text-2xl text-[6px] font-semibold font-['Inter']">Contact Us</div>
                </div>
               <div className="md:w-36 w-10 md:p-3 p-2 rounded-[6px] border md:rounded-lg border-lime-950 justify-center items-center gap-2 flex">
@@ -38,7 +38,7 @@ const AboutUs = () => {
          </div>
     
     -<div className=" images-cylinder  md:-mt-96 -mt-36">
-      <img  className="w-screen " src={aboutus} />
+      <img  className="w-full px-2" src={aboutus} />
     </div>
 
   </div>
@@ -56,7 +56,7 @@ const AboutUs = () => {
       </div>
 
       <div className="justify-start items-start md:gap-7 gap-2 inline-flex md:mt-4  mt-2">
-              <div className="md:w-36 w-12 md:p-3  p-2 bg-lime-950 md:rounded-lg rounded-[6px] justify-center items-center md:gap-2 gap-1 flex">
+              <div className="md:w-36 w-12 md:p-3  p-2 bg-lime-900 md:rounded-lg rounded-[6px] justify-center items-center md:gap-2 gap-1 flex">
                    <div className="text-center text-white md:text-2xl text-[6px] font-semibold font-['Inter']">Contact Us</div>
                </div>
               <div className="md:w-36 w-10 md:p-3 p-2 rounded-[6px] border md:rounded-lg border-lime-950 justify-center items-center gap-2 flex">
@@ -98,16 +98,16 @@ const AboutUs = () => {
       Innovation for Inclusion
     </div>
    
-      <div className="body md:text-xl text-[8px] md:px-48 p-4 md:my-8 my-2">
+      <div className="body md:text-xl text-center text-[8px] md:px-44 p-4 md:my-8 my-2">
       Technology is the driving force behind DOOB Community. We leverage the latest advancements to create a user-friendly, accessible, and secure platform. Our commitment to innovation ensures that individuals with disabilities can navigate our services seamlessly, caregivers can connect with those in need, and donors can make a meaningful impact.
       
       </div>
       <div className="image ">
       <img  className="w-screen " src={innovation} />
       </div>
-      <div className="Donate">
-      <div className="justify-center item-center  inline-flex md:mt-4  mt-2">
-              <div className="md:w-44 w-16 md:p-3  p-2 bg-lime-950 md:rounded-lg rounded-[6px] justify-center items-center md:gap-2 gap-1 flex">
+      <div className="Donate justify-center items-center">
+      <div className="justify-center items-center md:px-96  inline-flex md:mt-4  mt-2">
+              <div className="md:w-44 w-16 md:p-3  p-2 bg-lime-900 md:rounded-lg rounded-[6px] justify-center items-center md:gap-2 gap-1 flex">
                    <div className="text-center text-white md:text-2xl text-[6px] font-semibold font-['Inter']">Donate</div>
                </div>
              

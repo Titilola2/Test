@@ -33,7 +33,7 @@ const Home = () => {
        <div className="w-1/2 mt-40 text-white text-5xl font-semibold font-['Inter']">Empowering Connections for Every Ability</div>
        <div className="w-2/5 text-white text-2xl font-normal font-['Inter']">empowers adults with intellectual and developmental disabilities, fostering independence and enhancing quality of life through comprehensive support services.<br/>they don't have disability but an ability</div>
        <div className="justify-start items-start gap-7 inline-flex">
-         <div className="w-32 p-2 bg-lime-950 rounded-lg justify-center items-center gap-2 flex">
+         <div className="w-32 p-2 bg-lime-900 rounded-lg justify-center items-center gap-2 flex">
            <div className="text-center text-white text-xl font-semibold font-['Inter']">Contact Us</div>
          </div>
           <div className="w-32 p-2 rounded-lg border border-lime-950 justify-center items-center gap-2 flex">
@@ -52,7 +52,7 @@ const Home = () => {
            <div className="self-stretch text-stone-800 mb-8 text-base font-normal font-['Inter']">empowers adults with intellectual and developmental disabilities, fostering independence and enhancing quality of life through comprehensive support services.<br/>they don't have disability but an ability</div>
          </div>
          <div className="justify-start items-start gap-4 inline-flex   ">
-             <div className="w-28 p-2 bg-lime-950 rounded-lg justify-center items-center gap-2 flex">
+             <div className="w-28 p-2 bg-lime-900 rounded-lg justify-center items-center gap-2 flex">
                <div className="text-center text-white text-base font-semibold font-['Inter']">Contact Us</div>
              </div>
             <div className="w-28 p-2 rounded-lg border border-lime-950 justify-center items-center gap-2 flex">
@@ -73,35 +73,36 @@ const Home = () => {
       <div className="text-center text-stone-950 md:text-4xl text-2xl font-semibold font-['Inter']">Empowering Connections for Every Ability</div>
       <div className="w-full md:w-3/5 pl-2 text-center text-stone-950 md:text-xl text-base font-normal font-['Inter']">Our mission is dedicated to fostering empowerment among individuals with disabilities, encouraging active engagement, and ultimately contributing to an enriched quality of life</div>
     </div>
-    <div className="h-14 p-2 bg-lime-950 mb-8 rounded-lg justify-center items-center gap-2 inline-flex">
+    <div className="h-14 p-2 bg-lime-900 mb-8 rounded-lg justify-center items-center gap-2 inline-flex">
       <div className="text-center text-white text-xl font-semibold font-['Inter']">Learn More</div>
     </div>
   </div>
   </div>
 
 {/* medium and large screen*/}
- <div className="mission-body flex-row   flex  w-full md:gap-0 gap-2 ">
+ <div className="mission-body flex flex-row md:px-2 px-1  w-full md:gap-0 gap-2 ">
 
-   <div className="w-1/2 md:h-4/5 md:mt-2 mt-4 ">
+   <div className="w-1/2  md:mt-2 mt-4 md:h-full">
       <div className="mission-imag   ">
         <div className=" container flex-col ">
-         <img className="md:w-4/5 w-4/5   h-1/3 md:ml-24 ml-10  " src={one} />
-         <img className="md:w-4/5 w-4/5  h-1/3 xl:-mt-48 lg:-mt-12 md:-mt-6 -mt-2" src={two} />
-         <img className="md:w-4/5 w-4/5  h-1/3 md:ml-24 xl:-mt-48  lg:-mt-12 md:-mt-6 ml-10 -mt-2 " src={three} />
+         <img className="md:w-4/5 w-4/5  h-1/5 md:ml-24 ml-10  " src={one} />
+         <img className="md:w-4/5 w-4/5 h-1/4 xl:-mt-36 lg:-mt-16 md:-mt-8 -mt-2" src={two} />
+         <img className="md:w-4/5 w-4/5 h-1/4  xl:-mt-24  lg:-mt-12 md:-mt-6 ml-24 -mt-2 " src={three} />
         </div>
      </div>
     </div>
 
    <div className="mission-words flex-col w-1/2  ">
-   <div className="w-full flex-row  md:h-1/4 h-34 bg-lime-950 rounded-md justify-start items-center gap-3 inline-flex">
+   <div className="w-full flex-row   h-1/5 bg-lime-900 rounded-md justify-start items-center gap-3 inline-flex">
     <img className="w-1/3 h-full " src={four} />
-    <div className="flex-col justify-start items-center gap-2 inline-flex">
+    <div className="flex-col justify-start items-center gap-2 inline-flex  ">
+      
       <div className="text-white md:text-xl lg:text-4xl  text-[12px] h-1/4  md:font-semibold font-thin font-['Inter']">Explore our Services</div>
       <div className=" text-center text-stone-50 md:text-xs lg:text-xl  text-[7px] md:font-normal font-hairline font-hairline font-['Inter']">Embark on a journey of discovery with "Explore Our Services," where tailored programs and comprehensive support await, empowering individuals to thrive and achieve their unique goals.</div>
     </div>
     </div>
 
-    <div className="w-full flex-row md:pr-2.5 md:h-1/4 h-34 my-1 bg-lime-950 rounded-md justify-start items-center gap-3 inline-flex">
+    <div className="w-full flex-row   h-1/5 md:my-8 bg-lime-900 rounded-md justify-start items-center gap-3 inline-flex">
     <img className="w-1/3 h-full " src={five} />
     <div className="flex-col justify-start items-center gap-2 inline-flex">
       <div className="text-white md:text-xl lg:text-4xl  text-[12px] md:h-1/4 h-2 md:font-semibold font-thin  font-['Inter']">Join Our Team</div>
@@ -109,7 +110,7 @@ const Home = () => {
     </div>
     </div>
    
-    <div className="w-full flex-row  pr-2.5 md:h-1/4 h-34  bg-lime-950 rounded-md justify-start items-center gap-3 inline-flex">
+    <div className="w-full flex-row   h-1/5  bg-lime-900 rounded-md justify-start items-center gap-3 inline-flex">
     <img className="w-1/3 h-full " src={six} />
     <div className="flex-col justify-start items-center gap-2 inline-flex">
       <div className="text-white md:text-xl lg:text-4xl  text-[12px] md:h-1/4 h-2  md:font-semibold font-thin  font-['Inter']">Support Our Mission</div>
@@ -117,10 +118,10 @@ const Home = () => {
     </div>
     </div>
 
-    <div className="w-full flex-row  pr-2.5 md:h-1/4 h-34  mt-1 bg-lime-950 rounded-md justify-start items-center gap-3 inline-flex">
+    <div className="w-full flex-row  h-1/5  md:mt-8 bg-lime-900 rounded-md justify-start items-center gap-3 inline-flex">
     <img className="w-1/3 h-full " src={seven} />
     <div className="flex-col justify-start items-center gap-2 inline-flex">
-      <div className=" text-white md:text-xl lg:text-xl  text-[12px] md:h-1/4 h-2 md:font-semibold font-thin   font-['Inter']">Follow Our Events</div>
+      <div className=" text-white md:text-xl lg:text-4xl  text-[12px] md:h-1/4 h-2 md:font-semibold font-thin   font-['Inter']">Follow Our Events</div>
       <div className=" text-center text-white md:text-xs lg:text-xl text-[7px] md:font-normal font-hairline font-['Inter']">Stay connected and follow our events for exciting updates, impactful initiatives, and opportunities to engage with our community. Don't miss out on the latest happenings – be a part of our journey</div>
     </div>
  </div>
@@ -146,8 +147,8 @@ const Home = () => {
 
 {/*what we do*/}
     {/*Large screen*/}
-  <div className="what-we-do  items-center flex flex-col mt-4 hidden md:flex">
-    <div className="heading w-3/5  py-8 md:my-4">
+  <div className="what-we-do  items-center flex flex-col md:my-12 my-4 hidden md:flex">
+    <div className="heading w-3/5  py-8 md:my-4 md:pb-20">
       <div className="md:text-4xl  font-black justify-center items-center text-center justify-center font-['Inter']">
             What We Do
       </div>
@@ -162,7 +163,7 @@ const Home = () => {
           <div className="rectangle" >
           <img className="w-1/5 ml-28  justify-center py-4 " src={check} />
             </div>
-           <div className="font-semibold text-2xl">
+           <div className="font-semibold text-2xl text-center">
               Meaningful Day Services
             </div>
              <div className="text-base">
@@ -172,7 +173,7 @@ const Home = () => {
         <div className="rectangle" >
             <img className="w-1/5 ml-28 justify-center py-2 " src={check} />
             </div>
-           <div className="font-semibold text-2xl">
+           <div className="font-semibold text-2xl text-center">
               Support Services
             </div>
              <div className="text-base">
@@ -191,7 +192,7 @@ const Home = () => {
           <div className="rectangle" >
             <img className="w-1/5 ml-28  justify-center py-4 " src={check} />
             </div>
-           <div className="font-semibold text-2xl">
+           <div className="font-semibold text-2xl text-center">
               Residential Services
             </div>
              <div className="text-base">
@@ -201,7 +202,7 @@ const Home = () => {
         <div className="rectangle" >
             <img className="w-1/5 ml-28 justify-center py-2" src={check} />
             </div>
-           <div className="font-semibold text-2xl">
+           <div className="font-semibold text-2xl text-center">
               Transitioning Youth
             </div>
              <div className="text-base">

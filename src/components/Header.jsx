@@ -1,6 +1,8 @@
 import React from 'react';
 import menu from '../assets/menu.svg';
 import group from '../assets/Group.svg';
+import call from '../assets/call.png';
+import email from '../assets/email.svg';
 
 const Header = () => {
   return (
@@ -11,9 +13,11 @@ const Header = () => {
     
     <div className="lg:px-8 px-2 py-4 bg-lime-900 justify-centre  inline-flex w-full">
       <div className=" grow shrink basis-0 self-stretch justify-between items-center inline-flex">
-         <div className=" justify-start items-start gap-2 flex flex row">
+         <div className=" justify-start items-start md:gap-2 gap:-1 flex flex row">
            <div className=" flex-row justify-center items-center inline-flex">
-                <div className=" text-white md:text-xl text-[12px] font-black font-['Font Awesome 5 Free']"></div>
+                <div className=" text-white md:text-xl text-[12px] font-black font-['Font Awesome 5 Free']">
+                  <img className="md:w-6 w-3  " src={call} />
+                  </div>
                </div>
            <div className="12408185628 text-white  md:text-2xl text-[10px] font-semibold font-['Inter']">+1 (240) 818-5628</div>
             </div>
@@ -22,8 +26,10 @@ const Header = () => {
              <div className="Group  relative">
              </div>
            </div>
-          <div className="CareDoobcommunityCom">
-             <span className="underline text-white text-base font-semibold font-['Inter']">image</span>
+          <div className="CareDoobcommunityCom flex flex-row md:gap-2 gap-1">
+             <span className="underline text-white text-base font-semibold font-['Inter']">
+             <img className="md:w-7 w-5   " src={email} />
+             </span>
               <span style={{ textDecoration: 'underline' }} className="text-white md:text-2xl text-[8px]font-semibold font-['Inter']">Care@doobcommunity.com</span>
               </div>
 

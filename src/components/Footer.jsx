@@ -2,6 +2,10 @@ import React from 'react';
 import footer from '../assets/footer.svg';
 import foot from '../assets/footer-icon.svg';
 import group from '../assets/Group.svg';
+import fb from '../assets/logo-fb.svg';
+import ig from '../assets/logo-ig.svg';
+import li from '../assets/logo-li.svg';
+import twt from '../assets/logo-twt.svg';
 
 const Footer = () => {
   return (
@@ -30,33 +34,33 @@ const Footer = () => {
     <div className="Frame44 w-full h-full flex-col justify-center items-center  inline-flex">
      <div className="Group w-auto h-3/4 relative">  <img className="  " src={group} />
       </div>
-    <div className="DoobCommunity text-center text-limee-600 text-xs text-lime-950 font-extrabold">DOOB COMMUNITY</div>
+    <div className="DoobCommunity text-center text-limee-600 text-xs text-lime-900 font-extrabold">DOOB COMMUNITY</div>
    </div>
 
    
    <div className="Frame45 h-1/4 justify-center items-center gap-6 inline-flex md:px-40 py-4 px-4">
     <div className="Frame38 justify-start items-start gap-6 flex flex-row">
-      <div className="AboutUs text-center text-lime-950 md:text-lg text-xs font-semibold font-['Inter']">About Us</div>
+      <div className="AboutUs text-center text-lime-900 md:text-lg text-xs font-semibold font-['Inter']">About Us</div>
       <div className="Line10">|</div>
     </div>
     <div className="Frame39 justify-start items-start gap-6 flex">
-      <div className="People text-center text-lime-950 md:text-lg text-xs font-semibold font-['Inter']">People</div>
+      <div className="People text-center text-lime-900 md:text-lg text-xs font-semibold font-['Inter']">People</div>
       <div className="Line10">|</div>
     </div>
     <div className="Frame41 justify-start items-start gap-6 flex">
-      <div className="News text-center text-lime-950 md:text-lg text-xs font-semibold font-['Inter']">News </div>
+      <div className="News text-center text-lime-900 md:text-lg text-xs font-semibold font-['Inter']">News </div>
       <div className="Line10">|</div>
     </div>
     <div className="Frame40 justify-start items-start gap-6 flex">
-      <div className="Services text-center text-lime-950 md:text-lg text-xs font-semibold font-['Inter']">Services</div>
+      <div className="Services text-center text-lime-900 md:text-lg text-xs font-semibold font-['Inter']">Services</div>
       <div className="Line1">|</div>
     </div>
     <div className="Frame42 p-2 justify-center items-center gap-2 flex">
-      <div className="Blogs text-center text-lime-950 md:text-lg text-xs font-semibold font-['Inter']">Blogs</div>
+      <div className="Blogs text-center text-lime-900 md:text-lg text-xs font-semibold font-['Inter']">Blogs</div>
     </div>
  </div>
  <div className="h-1/4   md:py-8 ">
- <div className="DoobCommunity   text-center  text-lime-950 md:text-lg flex-glow text-[8px] font-normal font-['Inter'] ">DOOB Community is committed to nondiscriminatory practices in all aspects of its services and programs. This commitment aligns with regulations from acts such as the 1964 Civil Rights Act, the Rehabilitation Act of 1973, the Age Discrimination Act of 1975, and the Hill Burton Act. We ensure equal opportunities in employment, admissions, service provisions, accommodations, and program participation, rejecting discrimination based on factors like race, color, national origin, age, and disability.</div>
+ <div className="DoobCommunity   text-center  text-lime-900 md:text-lg flex-glow text-[8px] font-normal font-['Inter'] ">DOOB Community is committed to nondiscriminatory practices in all aspects of its services and programs. This commitment aligns with regulations from acts such as the 1964 Civil Rights Act, the Rehabilitation Act of 1973, the Age Discrimination Act of 1975, and the Hill Burton Act. We ensure equal opportunities in employment, admissions, service provisions, accommodations, and program participation, rejecting discrimination based on factors like race, color, national origin, age, and disability.</div>
 </div>
 
 
@@ -64,25 +68,25 @@ const Footer = () => {
 
 
 
-<div className="Frame29 w-full     h-10  bg-stone-50 flex flex-row mt-2 ">
- <div className="Frame37 w-full  md:h-20 h-7 absolute">
-    <div className="Rectangle18 md:w-2/5 w-1/3 h-full right-0 top-0 absolute origin-top-left  bg-lime-950 rounded-tl-full" />
+<div className=" flex flex row w-full  md:h-10 h-4 md:mt-0 mt-4 mb-2">
+  <div className="Rectangle18 md:w-2/5 w-1/3 h-full right-0 top-0  origin-top-left  bg-lime-900 rounded-tr-full "></div>
+  <div className=" w-1/3 flex flex-col md:gap-2 gap-1 ">
+    <div className="socials h-1/2 space-x-4 flex flex-row md:px-16 px-4 footer-text text-lime-900 md:text-xs text-[4px]">
+    <img className="ImagePlaceholder md:pl-8 pl-0 md:px-4 px-0 w-1/4" src={fb}  />
+    <img className="ImagePlaceholder  md:px-4 px-0 w-1/4" src={twt}  />
+    <img className="ImagePlaceholder  md:px-4 px-0 w-1/4" src={li}  />
+    <img className="ImagePlaceholder  md:px-4 px-0 w-1/4" src={ig}  />
 
-    <div className="footer text-center  flex flex-col gap-2">
-      <div className="socials h-1/2 flex flex-row bg-blue-100">
-      <div className="FacebookLogo w-1/4 h-full  relative" > F</div>
-      <div className="TwitterLogo w-1/4 h-full  relative" />
-      <div className="LinkedinLogo w-1/4 h-full relative" />
-      <div className="InstagramLogo w-1/4 h-full  relative" />
+    </div>
+    <div className="rights h-1/2 footer-text text-lime-900 md:text-sm text-[5px] text-center md:pb-0  pb-2  ">
+    @2024 DOOB Communiy All Rights Reserved
+    </div>
+  </div>
+  <div className="Rectangle18 md:w-2/5 w-1/3 h-full right-0 top-0  origin-top-left  bg-lime-900 rounded-tl-full "></div>
 
-      </div>
-     <span className="footer-text text-lime-950 md:text-xs  ">
-     @2024 DOOB Communiy All Rights Reserved
-      </span>
-    </div>
-    <div className="Rectangle17 md:w-2/5 w-1/3 h-full left-0 top-0 absolute bg-lime-950 rounded-tr-full" />
-    </div>
-   </div>
+</div>
+
+
 </div>
 
 
