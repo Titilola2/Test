@@ -54,7 +54,7 @@ const Header = () => {
        >About Us
       </a>
       <div className="People text-center text-black text-xl font-semibold font-['Inter']">People</div>
-      <div className="Services text-center text-black text-xl font-semibold font-['Inter']">Services</div>
+      <a href="services" className="Services text-center text-black text-xl font-semibold font-['Inter']">Services</a>
     </div>
     <div className="Frame6 justify-start items-start gap-2 flex">
       <div className="Frame4 w-32 p-2 bg-lime-900 rounded-lg justify-center items-center gap-2 flex">
