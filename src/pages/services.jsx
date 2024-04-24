@@ -9,12 +9,6 @@ import one from '../assets/service-one.svg';
 import two from '../assets/service-two.svg';
 import three from '../assets/service-three.svg';
 import four from '../assets/service-four.svg';
-import five from '../assets/right-image2.svg';
-import six from '../assets/right-image3.svg';
-import seven from '../assets/right-image4.svg';
-import whatwedo from '../assets/what-we-do.svg';
-import check from '../assets/check.svg';
-
 
 const Services = () => {
  

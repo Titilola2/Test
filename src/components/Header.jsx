@@ -53,18 +53,18 @@ const Header = () => {
       <a href="about-us" className="AboutUs text-center text-black text-xl font-semibold font-['Inter']" 
        >About Us
       </a>
-      <div className="People text-center text-black text-xl font-semibold font-['Inter']">People</div>
+      <a href="people"className="People text-center text-black text-xl font-semibold font-['Inter']">People</a>
       <a href="services" className="Services text-center text-black text-xl font-semibold font-['Inter']">Services</a>
     </div>
     <div className="Frame6 justify-start items-start gap-2 flex">
       <div className="Frame4 w-32 p-2 bg-lime-900 rounded-lg justify-center items-center gap-2 flex">
-        <div className="Donate w-28 text-center text-white text-xl font-semibold font-['Inter']">Donate</div>
+        <a href="donate" className="Donate w-28 text-center text-white text-xl font-semibold font-['Inter']">Donate</a>
       </div>
       <div className="Frame3 w-32 p-2 bg-lime-900 rounded-lg justify-center items-center gap-2 flex">
-        <div className="ContactUs text-center text-white text-xl font-semibold font-['Inter']">Contact Us</div>
+        <a href="contact-us" className="ContactUs text-center text-white text-xl font-semibold font-['Inter']">Contact Us</a>
       </div>
       <div className="Frame5 w-32 p-2 rounded-lg border border-stone-600 justify-center items-center gap-2 flex">
-        <div className="Enroll w-28 text-center text-stone-600 text-xl font-semibold font-['Inter']">Enroll</div>
+        <a href="enroll" className="Enroll w-28 text-center text-stone-600 text-xl font-semibold font-['Inter']">Enroll</a>
       </div>
     </div>
   </div>
